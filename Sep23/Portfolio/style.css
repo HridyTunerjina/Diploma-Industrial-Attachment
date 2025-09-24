@@ -1,5 +1,15 @@
-
 .nav-icon{
   font-family: "Zalando Sans Expanded", sans-serif;
   font-weight: 400;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
 }
